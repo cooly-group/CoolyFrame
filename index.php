@@ -8,16 +8,16 @@
  */
 
 // 定义框架所处目录
-define("COOLY","Applications/XAMPP/xamppfiles/htdocs/coolyFrame");
+define("COOLY", realpath('./'));
 
 // 定义核心文件所处目录
-define("CORE",COOLY."/core");
+define("CORE", COOLY."/core");
 
 // 项目所处目录
-define("APP",COOLY."/app");
+define("APP", COOLY."/app");
 
 // 定义开发调试模式
-define("DEBUG",true);
+define("DEBUG", true);
 
 
 if(DEBUG){
@@ -27,16 +27,14 @@ if(DEBUG){
 }
 
 // 引入函数
-include CORE."/common/function.php";
-p(COOLY);
+include CORE . "/common/function.php";
 
-////  加载核心文件
-//include  Core."/Cooly.php";
-//
-//// 引用自动加载类
-//spl_autoload_register("Cooly::load");
+//  加载核心文件
+include CORE . "/Cooly.php";
+
+// 引用自动加载类
+spl_autoload_register("Cooly::load");
 
 // 启动框架
-//\core\Cooly::run();
-
+\core\Cooly::run();
 
