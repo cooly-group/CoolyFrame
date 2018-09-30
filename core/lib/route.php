@@ -1,13 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: maizai1994
- * Date: 2018/9/30
- * Time: 07:29
- */
 
 namespace core\lib;
 
+use core\lib\config;
 
 class route
 {
@@ -43,7 +38,7 @@ class route
                 $this -> method = $pathArr[1];
                 unset($pathArr[1]); // 卸载方法
             }else{
-                $this -> method = 'index';
+                $this -> method = config::get('CTRL','route');
             }
             // 处理路由传值
             $count = count($pathArr) + 2;
@@ -55,8 +50,8 @@ class route
                 $i = $i + 2;
             }
         }else{
-            $this -> ctrl = 'index';
-            $this -> method = 'index';
+            $this -> ctrl = config::get('CTRL','route');
+            $this -> method = config::get('METHOD','route');
         }
     }
 }
