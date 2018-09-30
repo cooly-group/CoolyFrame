@@ -1,5 +1,8 @@
 <?php
-// 打印内容
+/**
+ * 打印内容 测试方法
+ * @param $var
+ */
 function p($var){
     if(is_bool($var)){
         var_dump($var);

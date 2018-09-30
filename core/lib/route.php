@@ -11,17 +11,21 @@ namespace core\lib;
 
 class route
 {
+    /**
+     * 1、隐藏 index.php
+     * 2、获取URL中的参数部分
+     * 3、返回对应的控制器和方法
+     */
+
     // xxx.com/index.php/index/index
     // xxx.com/index/index
-
     // 声明控制器和方法
     public $ctrl;
     public $method;
 
     /**
-     * 1、隐藏 index.php
-     * 2、获取URL中的参数部分
-     * 3、返回对应的控制器和方法
+     * 处理控制器和方法
+     * route constructor.
      */
     public function __construct()
     {

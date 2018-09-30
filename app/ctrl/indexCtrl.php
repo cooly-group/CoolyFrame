@@ -6,9 +6,15 @@
  * Time: 08:46
  */
 namespace app\ctrl;
-class indexCtrl {
+
+use core;
+class indexCtrl extends \core\cooly {
     public function index()
     {
-        p(" it is index");
+        $title = 'tttt';
+        $name = 'nnnn';
+        $this -> assign('title', $title);
+        $this -> assign('name' , $name);
+        $this -> display('index.html');
     }
 }
