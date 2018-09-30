@@ -19,6 +19,9 @@ define("APP", COOLY."/app");
 // 定义开发调试模式
 define("DEBUG", true);
 
+// 定义module
+define("MODULE",'app');
+
 
 if(DEBUG){
     ini_set("display_errors","On");
@@ -30,10 +33,10 @@ if(DEBUG){
 include CORE . "/common/function.php";
 
 //  加载核心文件
-include CORE . "/Cooly.php";
+include CORE . "/cooly.php";
 
 // 引用自动加载类
-spl_autoload_register("Cooly::load");
+spl_autoload_register("\core\cooly::load");
 
 // 启动框架
 \core\Cooly::run();
