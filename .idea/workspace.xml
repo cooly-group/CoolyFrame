@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b5dbec1-088e-4b35-9ace-d5c3fb98a986" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/lib/drive/log/dbLog.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/lib/drive/log/fileLog.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/lib/log.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/2018100101/log.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/2018100102/log.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/2018100102/server.log" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/config/datebase.php" afterPath="$PROJECT_DIR$/core/config/database.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/log/2018100101/log.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/log/2018100102/log.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/log/2018100102/server.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ctrl/indexCtrl.php" afterPath="$PROJECT_DIR$/app/ctrl/indexCtrl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/config/log.php" afterPath="$PROJECT_DIR$/core/config/log.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/config/route.php" afterPath="$PROJECT_DIR$/core/config/route.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/cooly.php" afterPath="$PROJECT_DIR$/core/cooly.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/lib/model.php" afterPath="$PROJECT_DIR$/core/lib/model.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+              <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -328,12 +319,12 @@
       <workItem from="1538060808193" duration="3010000" />
       <workItem from="1538092296373" duration="1189000" />
       <workItem from="1538232919868" duration="419000" />
-      <workItem from="1538235332099" duration="20008000" />
+      <workItem from="1538235332099" duration="20103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24626000" />
+    <option name="totallyTimeSpent" value="24721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -716,7 +707,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
           <folding />
         </state>
       </provider>
