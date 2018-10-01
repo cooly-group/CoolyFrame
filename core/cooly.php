@@ -1,6 +1,8 @@
 <?php
 namespace core;
 
+use core\lib\log;
+
 class cooly{
 
     // 类静态常量
@@ -14,12 +16,12 @@ class cooly{
      * @throws \Exception
      */
     static public function run(){
+        // 日志启动
+        \core\lib\log::init();
         $route = new \core\lib\route();
-
         // 控制器和方法的赋值
         $ctrlClass = $route -> ctrl;
         $method = $route -> method;
-
         // 模块处理
         $ctrlFile = APP . '/ctrl/'.$ctrlClass . 'Ctrl.php';
         $module = '\\' . MODULE . '\ctrl\\' . $ctrlClass . 'Ctrl';  // 引入模块文件
@@ -28,6 +30,7 @@ class cooly{
             // 实例化模块调用对应方法
             $ctrl = new $module();
             $ctrl -> $method();
+            log::log('ctrl:' . $ctrlClass . '  action:' . $method ,'server');
         }else{
             throw new \Exception("找不到控制器".$ctrlClass);
         }

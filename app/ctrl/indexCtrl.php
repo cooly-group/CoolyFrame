@@ -8,6 +8,9 @@
 namespace app\ctrl;
 
 
+use core\lib\drive\log\fileLog;
+use core\lib\log;
+
 class indexCtrl extends \core\cooly {
     public function index()
     {
@@ -15,9 +18,10 @@ class indexCtrl extends \core\cooly {
 //        $d = \core\lib\config::get('CTRL','route');
 //        print_r($c);
 //        print_r($d);
-        $q = new \core\lib\model();
-        $ret = $q -> query('select * from demo');
-        p($ret -> fetchAll());
+//        $q = new \core\lib\model();
+//        $ret = $q -> query('select * from demo');
+//        p($ret -> fetchAll());
+
         $title = 'tttt1234576';
         $name = 'nnnn';
         $this -> assign('title', $title);

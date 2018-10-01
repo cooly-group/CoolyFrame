@@ -1,15 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: maizai1994
- * Date: 2018/9/30
- * Time: 15:48
- */
-
-namespace core\config;
-
-
-class log
-{
-
-}
+// 全局默认缓存配置
+return [
+    'DRIVE'  => 'file',
+    'OPTIONS' => [
+        'PATH' => COOLY . '/log/',
+    ]
+];

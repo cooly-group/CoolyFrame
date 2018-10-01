@@ -1,0 +1,5 @@
+2018-10-01 02:07:22 : "ctrl indexaction index\n"
+2018-10-01 02:07:54 : "ctrl --indexaction --index"
+2018-10-01 02:08:29 : "ctrl --indexaction --index"
+2018-10-01 02:08:51 : "ctrl --index  action --index"
+2018-10-01 02:09:18 : "ctrl:index  action:index"

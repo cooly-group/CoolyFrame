@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b5dbec1-088e-4b35-9ace-d5c3fb98a986" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ctrl/demo/demoCtrl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/service/demo/demo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/demo/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/config/datebase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/config/log.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/config/route.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/lib/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/lib/drive/log/dbLog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/lib/drive/log/fileLog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/lib/log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/2018100101/log.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/2018100102/log.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/2018100102/server.log" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/config/datebase.php" afterPath="$PROJECT_DIR$/core/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ctrl/indexCtrl.php" afterPath="$PROJECT_DIR$/app/ctrl/indexCtrl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/config/log.php" afterPath="$PROJECT_DIR$/core/config/log.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/config/route.php" afterPath="$PROJECT_DIR$/core/config/route.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/cooly.php" afterPath="$PROJECT_DIR$/core/cooly.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/lib/model.php" afterPath="$PROJECT_DIR$/core/lib/model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/lib/route.php" afterPath="$PROJECT_DIR$/core/lib/route.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,55 +27,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="route.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/config/route.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="indexCtrl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ctrl/indexCtrl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-              <folding>
-                <element signature="e#6#91#0#PHP" expanded="true" />
-                <marker date="1538316292290" expanded="true" signature="406:424" ph="select * fro... demo" />
-                <marker date="1538316292290" expanded="true" signature="406:426" ph="select * fro... demo" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datebase.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/config/datebase.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="cooly.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/cooly.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-671">
-              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="375">
+              <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/lib/config.php">
+      <file leaf-file-name="log.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/lib/log.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="37" />
+              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -88,12 +67,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/lib/model.php">
+      <file leaf-file-name="indexCtrl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ctrl/indexCtrl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="20" selection-end-column="48" />
-              <folding />
+            <state relative-caret-position="259">
+              <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+              <folding>
+                <element signature="e#6#91#0#PHP" expanded="true" />
+                <element signature="e#114#145#0#PHP" expanded="true" />
+                <marker date="1538351975659" expanded="true" signature="461:479" ph="select * fro... demo" />
+                <marker date="1538351975659" expanded="true" signature="461:481" ph="select * fro... demo" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/core/Cooly.php" />
         <option value="$PROJECT_DIR$/core/route.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
@@ -124,13 +107,22 @@
         <option value="$PROJECT_DIR$/app/view/demo/index.html" />
         <option value="$PROJECT_DIR$/app/ctrl/demo/demoCtrl.php" />
         <option value="$PROJECT_DIR$/app/service/demo/demo.php" />
-        <option value="$PROJECT_DIR$/core/cooly.php" />
         <option value="$PROJECT_DIR$/core/lib/route.php" />
-        <option value="$PROJECT_DIR$/core/config/route.php" />
         <option value="$PROJECT_DIR$/core/config/datebase.php" />
-        <option value="$PROJECT_DIR$/app/ctrl/indexCtrl.php" />
         <option value="$PROJECT_DIR$/core/lib/config.php" />
         <option value="$PROJECT_DIR$/core/lib/model.php" />
+        <option value="$PROJECT_DIR$/core/config/route.php" />
+        <option value="$PROJECT_DIR$/core/config/database.php" />
+        <option value="$PROJECT_DIR$/core/lib/drive/log/database.php" />
+        <option value="$PROJECT_DIR$/core/lib/drive/log/file.php" />
+        <option value="$PROJECT_DIR$/core/config/log.php" />
+        <option value="$PROJECT_DIR$/core/lib/drive/log/fileLog.php" />
+        <option value="$PROJECT_DIR$/log/2018100101/log.log" />
+        <option value="$PROJECT_DIR$/app/ctrl/indexCtrl.php" />
+        <option value="$PROJECT_DIR$/core/lib/log.php" />
+        <option value="$PROJECT_DIR$/log/2018100102/log.log" />
+        <option value="$PROJECT_DIR$/core/cooly.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -184,56 +176,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coolyFrame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coolyFrame" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coolyFrame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coolyFrame" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coolyFrame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coolyFrame" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -274,10 +216,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/lib/drive" />
+      <recent name="$PROJECT_DIR$/core/lib" />
       <recent name="$PROJECT_DIR$/app/service/demo" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/core" />
-      <recent name="$PROJECT_DIR$/core/lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -385,12 +328,12 @@
       <workItem from="1538060808193" duration="3010000" />
       <workItem from="1538092296373" duration="1189000" />
       <workItem from="1538232919868" duration="419000" />
-      <workItem from="1538235332099" duration="14256000" />
+      <workItem from="1538235332099" duration="20008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18874000" />
+    <option name="totallyTimeSpent" value="24626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -542,14 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/SPL/SPL_f.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -578,14 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="696" column="20" lean-forward="false" selection-start-line="696" selection-start-column="20" selection-end-line="696" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/config/log.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -637,6 +564,115 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/lib/model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/config/route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/lib/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="60" column="40" lean-forward="true" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/2018100101log.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/2018100101/20181001012144log.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/2018100101/20181001012226log.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/2018100101/server.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/lib/drive/log/dbLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/2018100101/log.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/lib/drive/log/fileLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/config/log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ctrl/indexCtrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
+            <element signature="e#114#145#0#PHP" expanded="true" />
+            <marker date="1538351975659" expanded="true" signature="461:479" ph="select * fro... demo" />
+            <marker date="1538351975659" expanded="true" signature="461:481" ph="select * fro... demo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/lib/route.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -645,54 +681,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log/2018100102/log.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/2018100102/server.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/cooly.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-671">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="375">
+          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/config/route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/lib/config.php">
+    <entry file="file://$PROJECT_DIR$/core/lib/log.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="37" />
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/config/datebase.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ctrl/indexCtrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding>
-            <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1538316292290" expanded="true" signature="406:424" ph="select * fro... demo" />
-            <marker date="1538316292290" expanded="true" signature="406:426" ph="select * fro... demo" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/lib/model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="20" selection-end-column="48" />
+        <state relative-caret-position="15">
+          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
           <folding />
         </state>
       </provider>

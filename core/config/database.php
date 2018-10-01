@@ -1,11 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: maizai1994
- * Date: 2018/9/30
- * Time: 15:48
- */
-
+// 全局默认数据库配置
 return [
     'DSN' => 'mysql:host=localhost;dbname=demo',
     'USER' => 'root',

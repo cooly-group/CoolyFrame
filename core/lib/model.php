@@ -16,13 +16,13 @@ class model extends \PDO
 //        $dsn = 'mysql:host=localhost;dbname=demo';
 //        $username = 'root';
 //        $passwd = '123456';
-        $dsn = config::get('DSN','datebase');
-        $username = config::get('USER','datebase');
-        $passwd = config::get('PSD','datebase');
-//        $database = config::all('database');
+//        $dsn = config::get('DSN','datebase');
+//        $username = config::get('USER','datebase');
+//        $passwd = config::get('PSD','datebase');
+        $database = config::all('database');
 
         try{
-            parent::__construct($dsn, $username, $passwd);
+            parent::__construct($database['DSN'], $database['USER'], $database['PSD']);
         }catch (\PDOException $e){
             p($e -> getMessage());
         }
