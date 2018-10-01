@@ -1,2 +1,4 @@
 # CoolyFrame
-simple framework
+a simple framework
+by cooly
+
