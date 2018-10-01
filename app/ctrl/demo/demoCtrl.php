@@ -9,7 +9,9 @@
 namespace app\ctrl\demo;
 
 
-class demoCtrl extends \core\cooly {
+use core\cooly;
+
+class demoCtrl extends cooly {
    public function index(){
        $this -> display('demo/index.html');
    }
