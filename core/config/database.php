@@ -1,7 +1,8 @@
 <?php
-// 全局默认数据库配置
 return [
-    'DSN' => 'mysql:host=localhost;dbname=demo',
-    'USER' => 'root',
-    'PSD' => '123456'
+    'database_type' => 'mysql',
+    'database_name' => 'demo',
+    'server' => 'localhost',
+    'username' => 'root',
+    'password' => '123456',
 ];
