@@ -1,4 +1,4 @@
 # CoolyFrame
 a simple framework
-by cooly
+'''by cooly
 
