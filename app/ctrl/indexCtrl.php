@@ -7,7 +7,7 @@
  */
 namespace app\ctrl;
 use core\cooly;
-use \app\model\demoModel;
+use \app\model\demoC;
 
 class indexCtrl extends cooly {
     public function index()
