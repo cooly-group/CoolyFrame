@@ -1,0 +1,23 @@
+{
+  "name":"Cooly Frame",
+  "description":"a simple framework",
+  "type":"framework",
+  "keyword":[
+    "PHP",
+    "Framework",
+    "Cooly Frame"
+  ],
+  "require":{
+    "php":">=5.30",
+    "filp/whoops":"*",
+    "symfony/var-dumper":"*",
+    "catfan/medoo":"*",
+    "twig/twig":"*"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
