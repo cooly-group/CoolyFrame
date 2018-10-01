@@ -73,8 +73,13 @@ class cooly{
     public function display($file){
         $file = APP . '/view/' . $file;
         if(is_file($file)){
-            extract($this -> assgin);
-            include $file;
+            $loader = new \Twig_Loader_Filesystem(APP."/view/");
+            $twig = new \Twig_Environment($loader, array(
+                'cache' => COOLY.'/log/twig/',
+                'debug' => DEBUG
+            ));
+            $template = $twig->load('index.html');
+            $template-> display($this -> assgin?$this -> assgin : "");
         }
     }
 }

@@ -12,7 +12,16 @@ use \app\model\demoModel;
 class indexCtrl extends cooly {
     public function index()
     {
-       $demo = new demoModel();
-        dump($demo -> lists());
+        $data = "hello";
+        $this -> assign("title","标题");
+        $this -> assign('data',$data);
+        $this -> display("index.html");
+    }
+
+    public function test(){
+        $data = "test";
+        $this -> assign("title","标题");
+        $this -> assign('data',$data);
+        $this -> display("test.html");
     }
 }
