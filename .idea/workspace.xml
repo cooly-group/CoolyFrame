@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b5dbec1-088e-4b35-9ace-d5c3fb98a986" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/config/cache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/lib/debug.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/lib/drive/cache/fileCache.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/lib/drive/cache/session.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/.gitignore" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/lib/drive/cache/db.php" afterPath="$PROJECT_DIR$/core/lib/drive/cache/dbCache.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/lib/drive/cache/redis.php" afterPath="$PROJECT_DIR$/core/lib/drive/cache/redisCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/coolyFrame.iml" afterPath="$PROJECT_DIR$/.idea/coolyFrame.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ctrl/indexCtrl.php" afterPath="$PROJECT_DIR$/app/ctrl/indexCtrl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/config/log.php" afterPath="$PROJECT_DIR$/core/config/log.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/cooly.php" afterPath="$PROJECT_DIR$/core/cooly.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/lib/cache.php" afterPath="$PROJECT_DIR$/core/lib/cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/lib/config.php" afterPath="$PROJECT_DIR$/core/lib/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/lib/drive/log/fileLog.php" afterPath="$PROJECT_DIR$/core/lib/drive/log/fileLog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/run.php" afterPath="$PROJECT_DIR$/core/run.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,15 +28,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indexCtrl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ctrl/indexCtrl.php">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-              <folding>
-                <element signature="e#6#91#0#PHP" expanded="true" />
-                <element signature="e#113#128#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,11 +48,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbCache.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dbCache.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/lib/drive/cache/dbCache.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runtime/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -141,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/view/demo/index.html" />
         <option value="$PROJECT_DIR$/app/service/demo/demo.php" />
         <option value="$PROJECT_DIR$/core/config/datebase.php" />
         <option value="$PROJECT_DIR$/core/config/route.php" />
@@ -192,6 +183,7 @@
         <option value="$PROJECT_DIR$/core/lib/drive/log/fileLog.php" />
         <option value="$PROJECT_DIR$/core/config/cache.php" />
         <option value="$PROJECT_DIR$/core/lib/drive/cache/dbCache.php" />
+        <option value="$PROJECT_DIR$/runtime/.gitignore" />
       </list>
     </option>
   </component>
@@ -470,12 +462,12 @@
       <workItem from="1538232919868" duration="419000" />
       <workItem from="1538235332099" duration="30559000" />
       <workItem from="1538436150209" duration="925000" />
-      <workItem from="1538437188317" duration="11527000" />
+      <workItem from="1538437188317" duration="11602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47629000" />
+    <option name="totallyTimeSpent" value="47704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -546,13 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runtime/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -648,14 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -894,7 +871,23 @@
     <entry file="file://$PROJECT_DIR$/core/lib/drive/cache/dbCache.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
           <folding />
         </state>
       </provider>
