@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b5dbec1-088e-4b35-9ace-d5c3fb98a986" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/log/2018100206/3de4f901fffb30ac720b0e7eb654b4faa2dd03fa.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/twig/9f/9f5ad98d22daa523fef4b705f1f41833bd47995ed44cd2623555ade74124d756.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/twig/cf/cf461af2834067f0c8204406fb878d9a5a2edc8eacf7a7f2d6eabe959c70c632.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/.gitignore" afterPath="$PROJECT_DIR$/runtime/.gitignore" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/runtime/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -465,12 +463,12 @@
       <workItem from="1538232919868" duration="419000" />
       <workItem from="1538235332099" duration="30559000" />
       <workItem from="1538436150209" duration="925000" />
-      <workItem from="1538437188317" duration="11680000" />
+      <workItem from="1538437188317" duration="11724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47782000" />
+    <option name="totallyTimeSpent" value="47826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -890,7 +888,7 @@
     <entry file="file://$PROJECT_DIR$/runtime/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
           <folding />
         </state>
       </provider>
