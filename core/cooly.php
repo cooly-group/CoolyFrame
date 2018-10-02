@@ -76,7 +76,7 @@ class cooly{
         if(is_file($file)){
             $loader = new \Twig_Loader_Filesystem(APP."/view/");
             $twig = new \Twig_Environment($loader, array(
-                'cache' => COOLY.'/log/twig/',
+                'cache' => RUNTIME . '/twig/',
                 'debug' => DEBUG
             ));
             $template = $twig->load('index.html');

@@ -3,6 +3,6 @@
 return [
     'DRIVE'  => 'file',
     'OPTIONS' => [
-        'PATH' => COOLY . '/log/',
+        'PATH' => RUNTIME . '/log/',
     ]
 ];

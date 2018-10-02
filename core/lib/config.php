@@ -13,7 +13,7 @@ class config
 {
     // 配置静态变量
     static public $config = array();
-
+    static public $customize;
     /**
      * 文件单个缓存获取
      * @param $name string 缓存名称
@@ -27,6 +27,25 @@ class config
          * 2、检查缓存是否存在
          * 3、获取缓存，设置缓存
          */
+        if(empty($file)){
+            if(isset(self::$customize)){
+                return self::$customize;
+            }else {
+                $path = APP . '/config.php';
+                if (is_file($path)) {
+                    $conf = include $path;
+                    if (isset($conf[$name])) {
+                        self::$customize = $conf;
+                        return $conf[$name];
+                    } else {
+                        throw new \Exception('当前不存在缓存' . $name);
+                    }
+                } else {
+                    throw new \Exception('当前不存在缓存文件config.php' );
+                }
+            }
+        }
+
         if(isset(self::$config[$file])){
             return self::$config[$file][$name];
         }else{
@@ -65,4 +84,5 @@ class config
             }
         }
     }
+
 }

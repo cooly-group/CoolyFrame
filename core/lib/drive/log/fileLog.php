@@ -38,9 +38,9 @@ class fileLog
            mkdir($logDir,'0777',true);
         }
         // 按小时写入log
-        $file = $logDir . '/' . $file.'.log';
+        $file = $logDir . '/' . sha1($file).'.log';
         $message = date('Y-m-d H:i:s',time()) .' : '. json_encode($message);
         return file_put_contents($file,$message . PHP_EOL,FILE_APPEND);
-
     }
+
 }
